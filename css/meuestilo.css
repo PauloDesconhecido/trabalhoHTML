@@ -1,0 +1,33 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.imagemOpaca {
+  opacity: 0.5;
+}
+
+.imagemOpaca:hover {
+  opacity: 1.0;
+}
+
+.divTransform {
+  width: 150px;
+  height: 150px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.divTransform:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.verde1 {
+	background-color: #A3E4D7;
+}
+
+.verde2 {
+	background-color: #D5F5E3;
+}

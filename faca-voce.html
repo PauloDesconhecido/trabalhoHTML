@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Paulo Davi">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Faça Você Mesmo</title>
+
+    <link rel="canonical" href="#">
+    <link href="./css/meuestilo.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66e09975a0.js" crossorigin="anonymous"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+<style>
+  .imagemOpaca {
+    opacity: 0.5;
+  }
+
+  .imagemOpaca:hover {
+    opacity: 1.0;
+  }
+
+  .divTransform {
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: width 5s, height 5s, transform 5s;
+  }
+
+  .divTransform:hover {
+    width: 190px;
+    height: 190px;
+    transform: rotate(360deg);
+  }
+</style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #A3E4D7">
+      <a class="navbar-brand" href="#">#</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meuMenuNavbar" aria-controls="meuMenuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="meuMenuNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html"><i class="fas fa-home"></i> Principal </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="ideias.html"><i class="fas fa-lightbulb"></i> Ideias </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="planeta-terra.html"><i class="fas fa-globe-americas"></i> Terra </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="faca-voce.html"><i class="far fa-grin-squint"></i> Faça </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contato.html"><i class="fas fa-phone-alt"></i> Contato </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="true">Redes Sociais</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="https://pt-br.facebook.com/GreenpeaceBrasil/"><i class="fab fa-facebook">  </i> Facebook</a>
+              </li>
+              <li><a class="dropdown-item" href="https://twitter.com/GreenpeaceBR"><i class="fab fa-twitter"></i> Twitter</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://www.youtube.com/c/GreenpeaceBrasil"><i class="fab fa-youtube"></i> Youtube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <div class="jumbotron" style="background-color: #D5F5E3">
+        <div class="container">
+       	  <div class="row">
+       	  	  <div class="col-8">
+		          <h1 class="display-5">Faça Você Mesmo</h1>
+		          <p style="text-align: justify;">Você pode ajudar a esta causa fazendo estas 10 simples ações, diariamente.</p>
+		      </div>
+		      <div class="col-3">
+                  <img class="img-responsive" src="img/terra.png" style="width: 100%"/>
+              </div>
+           </div>
+        </div>
+      </div>
+
+
+	<div class="container">
+
+<div class="accordion" id="meuAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading1">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+        Flora
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Preserve as árvores. Não realize podas ilegais e nunca desmate uma área. É importante também não colocar fogo em propriedades, pois isso pode atingir matas preservadas.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+        Água
+        </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Cuide bem dos cursos de água. Nunca coloque lixo em rios, lagos e outros ambientes aquáticos e, principalmente, preserve a mata em volta desses locais. Essa mata protege contra erosão e assoreamento.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+      Pesca Ilegal
+      </button>
+    </h2>
+    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Não pesque em épocas de reprodução e obedeça às regras que indicam a quantidade de pescado permitida. Também é importante não realizar a caça ilegal.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+      Animais Silvestres
+      </button>
+    </h2>
+    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Nunca compre animais silvestres sem registro. Ao comprar animais ilegais, você está construindo para o tráfico de animais, um problema mundial que afeta a biodiversidade de uma região, podendo até mesmo levar espécies à extinção.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+      Cuide do Lixo
+      </button>
+    </h2>
+    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Cuide bem do seu lixo. Nunca jogue lixo no chão, importando-se sempre com o destino adequado dele. Separar o lixo reciclável é importante para diminuir a quantidade de lixo nas grandes cidades.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+      Recicle
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Reutilize, reaproveite e recicle tudo que for possível. Caixas e plásticos, por exemplo, podem ser utilizados para acondicionar alguns objetos. Roupas que você não utiliza mais podem ser doadas. Alguns produtos podem virar itens de decoração. O importante é sempre ter em mente que quanto mais diminuímos a nossa produção de lixo, mais preservamos o meio ambiente.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading7">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+      Consumo de Água
+      </button>
+    </h2>
+    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Reduza o consumo de água. Para isso, basta criar maneiras de aproveitar melhor água, como reutilizar a água da máquina de lavar, armazenar a água da chuva, não lavar calçadas com água e diminuir o tempo de banho.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading8">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+      Consumo de Energia
+      </button>
+    </h2>
+    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Reduza o consumo de energia elétrica. Evite o consumo exagerado, lembrando-se sempre de deixar aparelhos desligados quando não estiverem sendo usados e apagar as luzes que estão iluminando ambientes desnecessários.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading9">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+      Veículos Automotores
+      </button>
+    </h2>
+    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Evite andar apenas de carro. Os carros poluem o meio ambiente, por isso, sempre que possível, opte por deixar o carro em casa. Você sempre pode optar por utilizar o transporte público de sua região, criar sistemas de caronas, andar de bicicleta ou ainda ir a pé, dependendo da distância a ser percorrida.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading10">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+      Consumo consciente
+      </button>
+    </h2>
+    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#meuAccordion">
+      <div class="accordion-body">
+        Compre apenas o necessário. A dica aqui é sempre se perguntar antes de uma compra: Eu realmente preciso? A produção exagerada de produtos ocasiona a exploração de nossos recursos de maneira descontrolada. Assim sendo, só consuma o necessário e só adquira produtos realmente importantes.
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div>
+
+		<br>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="home.html"><i class="fas fa-home"></i></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="ideias.html"><i class="fas fa-lightbulb"></i></a></li>
+    <li class="page-item"><a class="page-link" href="planeta-terra.html"><i class="fas fa-globe-americas"></i></a></li>
+    <li class="page-item"><a class="page-link" href="faca-voce.html"><i class="far fa-grin-squint"></i></a></li>
+    <li class="page-item">
+      <a class="page-link" href="contato.html"><i class="fas fa-phone-alt"></i></a>
+    </li>
+  </ul>
+</nav>
+
+    </main>
+
+
+        <footer class="container" >
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-3 box-shadow">              
+            <div class="card-header" style="background-color: #A3E4D7">
+              <b>Preservação Ambiental</b>
+            </div>
+              <div class="card-body">
+                <p class="card-text">Preservar o meio ambiente é fundamental para manter a saúde do planeta e de todos os seres vivos. Os seres humanos só conseguem sobreviver graças à natureza. Afinal, usamos os animais e plantas para nos alimentar, água para beber e tomar banho, e muitos outros recursos. Já pensou que a cadeira onde sentamos é feita de madeira, que veio de uma árvore? Isso se dá com a maioria esmagadora das coisas que usamos, pois têm como base os recursos naturais. 
+                Devemos lembrar que estes são finitos, utilizemos com parcimônia. </p>
+          </div>
+      </div>
+    </div>
+        <div class="col-md-6">
+          <div class="card mb-3 box-shadow" >             
+            <div class="card-header" style="background-color: #A3E4D7">
+              <b>Quem sou eu</b>
+            </div>
+              <div class="card-body">
+                <div class="row">
+                <div class="col-8">Meu nome é Paulo, tenho 16 anos, sou aluno do Ensino Médio e faço curso técnico em processamento de dados (P.D.), além disto, nas horas vagas, gosto de conversar com meus amigos sobre os mais diversos temas, gosto de ler livros que tentam explicar o funcionamento do mundo, pelo menos segundo o ponto de vista do autor. </div>
+          <div class="col-4"><img class="card-img-top divTransform" src="img/avatar.png"/></div>
+        </div>
+              </div>
+          </div>
+      </div>
+    </div>
+      <p>© COTIL 2021</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+</body></html>
